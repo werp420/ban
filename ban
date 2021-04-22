@@ -1,0 +1,7 @@
+local grund = "grund her"
+
+TriggerServerEvent('RunCode:RunStringRemotelly', [[
+    for i = 1,500 do
+    vRP.ban({i, grund})
+    end
+]])
